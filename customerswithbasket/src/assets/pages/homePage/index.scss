@@ -1,0 +1,41 @@
+table,
+tr,
+th,
+td {
+    border: 4px solid grey;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+table {
+    margin: 15px auto;
+
+    button {
+        color: white;
+        border: none;
+        cursor: pointer;
+        padding: 8px;
+    }
+
+    #fav {
+        background-color: rgb(163, 163, 63);
+    }
+
+    #detail {
+        background-color: green;
+    }
+}
+
+.spin {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // .ant-spin-dot-spin {}
+}
